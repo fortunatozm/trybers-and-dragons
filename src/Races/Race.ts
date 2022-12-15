@@ -5,6 +5,8 @@ export default abstract class Race {
 
   constructor(private _name: string, private _dexterity: number) {
     // this._createdRacesInstances = 0;
+    // this._name = name;
+    // this._dexterity = dexterity;
     Race._createdRacesInstances += 1;
   }
 
@@ -20,5 +22,5 @@ export default abstract class Race {
     throw new Error('Not implemented');
   }
 
-  abstract get maxLifePoints():number;
+  abstract get maxLifePoints() : number;
 }
