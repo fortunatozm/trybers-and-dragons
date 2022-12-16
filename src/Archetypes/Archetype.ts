@@ -22,7 +22,7 @@ export default abstract class Archetype {
     return this._cost;
   }
 
-  static createdArchetypeInstances() {
+  static createdArchetypeInstances() : number {
     throw new Error('Not implemented');
   }
 
